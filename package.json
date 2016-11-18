@@ -1,0 +1,44 @@
+{
+  "name": "react-loading-func",
+  "version": "0.0.4",
+  "description": "react版本loading函数,通过loading.show()和loading.hide()来控制loading的显示和隐藏",
+  "keywords": [
+    "react-loading-func",
+    "react-loading",
+    "loading",
+    "react"
+  ],
+  "homepage": "https://github.com/dxcweb/react-loading-func",
+  "maitainers": [
+    "605863278@qq.com"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dxcweb/react-loading-func.git"
+  },
+  "licenses": "MIT",
+  "config": {
+    "port": 8200
+  },
+  "scripts": {
+    "build": "rc-tools run build",
+    "start": "rc-tools run server",
+    "pub": "rc-tools run pub",
+    "up": "rc-tools run update-self"
+  },
+  "devDependencies": {
+    "rc-tools": "5.7.11",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  },
+  "dependencies": {
+    "react-speed": "^0.0.8"
+  },
+  "files": [
+    "assets",
+    "examples",
+    "lib",
+    "src"
+  ],
+  "main": "./lib"
+}
