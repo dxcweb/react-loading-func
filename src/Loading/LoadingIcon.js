@@ -2,7 +2,7 @@
  * Created by dxc on 2016/11/18.
  */
 import React, {Component, PropTypes} from 'react';
-import {Block} from 'react-speed'
+import {Block} from 'fs-flex'
 import  '../../assets/LoadingIcon.less'
 export default class LoadingIcon extends Component {
     render() {

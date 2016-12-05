@@ -3,7 +3,7 @@
  */
 import React, {Component, PropTypes} from 'react';
 import react_dom from 'react-dom';
-import Loadingss from './Loading/Loading'
+import Loading from './Loading/Loading'
 export default class loading extends Component {
     static  show(title, options) {
         let props;
@@ -16,7 +16,7 @@ export default class loading extends Component {
         if (this.div == null) {
             this.div = document.createElement('div');
             document.body.appendChild(this.div);
-            react_dom.render(<Loadingss {...props}/>, this.div);
+            react_dom.render(<Loading {...props}/>, this.div);
         }
     }
 

@@ -1,6 +1,6 @@
 {
   "name": "react-loading-func",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "description": "react版本loading函数,通过loading.show()和loading.hide()来控制loading的显示和隐藏",
   "keywords": [
     "react-loading-func",
@@ -32,7 +32,7 @@
     "react-dom": "^15.2.1"
   },
   "dependencies": {
-    "react-speed": "^0.0.8"
+    "fs-flex": "^0.0.1"
   },
   "files": [
     "assets",
